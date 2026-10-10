@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Yacob | Profile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f4f4f4;
+        color: #333;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        color: #1f1f1f;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: #333;
+        margin-top: 25px;
+      }
+
+      .tag {
+        display: inline-block;
+        background: #e0f2f1;
+        color: #00695c;
+        padding: 8px 12px;
+        border-radius: 20px;
+        margin: 5px;
+        font-size: 14px;
+      }
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      .button {
+        display: inline-block;
+        margin-top: 20px;
+        background: #007bff;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hi, I'm Simon Yacob</h1>
+      <p>
+        I am a student and web developer who is learning HTML, CSS, and JavaScript.
+      </p>
+
+      <h2>Skills</h2>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">Responsive Design</span>
+
+      <h2>About Me</h2>
+      <p>
+        I enjoy creating simple, clean, and useful websites. I am learning step by
+        step and improving my web development skills every day.
+      </p>
+
+      <h2>Contact</h2>
+      <p>Email: simoyegetalij@461gmail.com</p>
+      <p>GitHub: <a href="https://github.com/simoyegetalij">github.com/simoyegetalij</a></p>
+
+      <a class="button" href="mailto:simoyegetalij@461gmail.com">Contact Me</a>
+    </div>
+  </body>
+</html>
